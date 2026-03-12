@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Bungee&family=Inconsolata:wght@200..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+   --font-inconsolata: "Inconsolata", monospace;
+   --font-bungee: "Bungee", sans-serif;
+   --font-bricolage: "Bricolage Grotesque", sans-serif;
+   --font-jost: "Jost", sans-serif;
+}
+
+p {
+  @apply px-5 py-3 text-2xl font-jost;
+}
+
+
+.steck-div{
+    @apply flex flex-col items-center justify-between w-30 h-40 pb-2 bg-amber-700;
+}
