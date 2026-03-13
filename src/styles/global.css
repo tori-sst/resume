@@ -12,7 +12,10 @@ p {
   @apply px-5 py-3 text-2xl font-jost;
 }
 
+section{
+  @apply rounded-3xl m-2 bg-gray-300;
+}
 
 .steck-div{
-    @apply flex flex-col items-center justify-between w-30 h-40 pb-2 bg-amber-700;
+    @apply flex flex-col items-center justify-between w-25 h-35 pb-2 rounded-2xl bg-gray-600;
 }
